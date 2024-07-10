@@ -89,3 +89,109 @@ color: #ddd;
   position: relative;
   top: 20px;
 }
+/*development part styles*/
+.fixed-width{
+  max-width: 852px;
+  margin: 0 auto;
+  height:auto;
+}
+.development-section{
+  width: 950px;
+  background-color:rgb(250, 250,251);
+  margin: 0 auto;
+  margin-top: 100px;
+}
+.web-development{
+  display: flex;
+  flex-direction:column;
+  justify-content: center;
+
+}
+.web-development-title{
+  color: rgb(13, 19, 33);
+font-size:28px;
+font-weight:600;
+line-height: 26px;
+text-align: center;
+
+}
+.web-development-description{
+font-size: 12px;
+font-weight:200;
+line-height:20px;
+letter-spacing: 0%;
+color: rgb(13, 19, 33);
+}
+.change-world-section{
+display: flex;
+justify-content: space-between;
+margin-top:80px;
+}
+.left-content-section{
+  max-width: 50%;
+}
+.right-img-section{
+  max-width: 50%;
+}
+.right-img-section img{
+  width: 259.56px;
+  height: 217.01px;
+}
+.left-content-title{
+  font-size: 22px;
+  font-weight:800;
+  line-height: 26px;
+  letter-spacing: 0%;
+  color: rgba(13, 19, 33, 0.7);
+}
+.left-content-des{
+  color: rgb(13, 19, 33);
+font-size: 16px;
+font-weight: 200;
+line-height: 24px;
+}
+.btn-development{
+  font-size: 25px;
+  padding: 10px 20px;
+  display: inline-block;
+  text-decoration: none;
+  color: rgb(13, 19, 33);
+}
+/*morden web section style*/
+.morden-web-section{
+  width: 852px;
+  margin: 0 auto;
+  display: flex;
+  margin-top: 80px;
+}
+.morden-web-section-left{
+  width: 35%;
+}
+.morden-web-section-right{
+  width: 65%;
+}
+.mordern-web-title{
+  color: rgba(13, 19, 33, 0.7);
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 36px;
+}
+.mordern-web-des{
+  color: rgb(13, 19, 33);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  margin-top: 10px;
+}
+.btn-morden-web{
+  font-size: 25px;
+  padding: 10px 20px;
+  display: inline-block;
+  text-decoration: none;
+  position: relative;
+  top: 30px;
+}
+.btn-morden-web a{
+  text-decoration: none;
+  color: rgb(13, 19, 33);
+}
